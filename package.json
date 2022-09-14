@@ -1,17 +1,31 @@
 {
-    "name": "nodejs_sqlite",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "better-sqlite3": "^7.6.2",
-        "sqlite": "^4.1.2",
-        "sqlite3": "^5.1.0"
-    }
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "**But du projet** : Créer une **api rest** avec le framework **express** , **node.js** et **sqlite**.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.0",
+    "yarn": "^1.22.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanecheikh/nodejs_planete_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanecheikh/nodejs_planete_api/issues"
+  },
+  "homepage": "https://github.com/sanecheikh/nodejs_planete_api#readme"
 }
